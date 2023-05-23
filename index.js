@@ -1,1 +1,3 @@
-console.log('entry point');
+import command from './src/command.js';
+
+await command.parseAsync();
